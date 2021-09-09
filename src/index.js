@@ -4,11 +4,12 @@ import './index.css';
 import './css/birthday.css';
 import './css/userlist.css';
 import App from './App';
+import TourApp from './components/first steps/10-TourApp';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <TourApp />
   </React.StrictMode>,
   document.getElementById('root')
 );
