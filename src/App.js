@@ -1,5 +1,5 @@
 import './App.css';
-import Setup from './components/first steps/9-user-list'
+import Setup from './components/first steps/10-TourApp'
 
 function App() {
   return (
