@@ -1,15 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import './css/birthday.css';
-import './css/userlist.css';
+//import './index.css';
+//import './css/birthday.css';
+//import './css/userlist.css';
 import App from './App';
 import TourApp from './components/first steps/10-TourApp';
+import ReviewApp from './components/first steps/11-ReviewApp';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <TourApp />
+    <ReviewApp />
   </React.StrictMode>,
   document.getElementById('root')
 );
