@@ -3,14 +3,20 @@ import ReactDOM from 'react-dom';
 //import './index.css';
 //import './css/birthday.css';
 //import './css/userlist.css';
+// import './css/accordion.css'
+import './css/menu.css'
 import App from './App';
 import TourApp from './components/first steps/10-TourApp';
 import ReviewApp from './components/first steps/11-ReviewApp';
+import Accordion from './components/first steps/12-AccordionApp.js'
+import MenuApp from './components/13-MenuApp.js'
+
 import reportWebVitals from './reportWebVitals';
+
 
 ReactDOM.render(
   <React.StrictMode>
-    <ReviewApp />
+    <MenuApp />
   </React.StrictMode>,
   document.getElementById('root')
 );
